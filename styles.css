@@ -1,0 +1,49 @@
+/* 
+
+- Font size: 15px */
+
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+:root {
+    --MainBackground: hsl(233, 47%, 7%);
+    --CardBackground: hsl(244, 38%, 16%);
+    --Accent: hsl(277, 64%, 61%);
+    --MainHeadingAndStats: hsl(0, 0%, 100%);
+    --MainParagraph: hsla(0, 0%, 100%, 0.75);
+    --StatHeadings: hsla(0, 0%, 100%, 0.6);
+}
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body {
+    background-color: var(--MainBackground);
+ }
+
+ img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    height: 100dvh;
+}
+
+.cardContainer {
+    background-color: var(--CardBackground);
+}
+
+#cardText h1 {
+    color: var(--MainHeadingAndStats);
+}
+
+#cardText h1 span {
+    color: var(--Accent);
+}
