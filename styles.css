@@ -105,30 +105,45 @@
 
 /* Media Queries */
 
-@media screen and (min-width: 768px) {
+/* iPad Air up to Desktop */
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
     .cardContainer {
+        width: 650px;
+    }
+
+    #cardImage {
+        width: 650px;
+        height: auto;
+    }
+    #hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         width: 85%;
     }
 
-    #hero {
-        text-align: center;        
-    }
-
     #heroText {
-        font-size: 35px;
-    }
-
-    #heroText {
-        font-size: 35px;
+        font-size: 40px;
+        width: 500px;
+        padding: 2rem 4rem;
     }
 
     #heroSubText {
-        font-size: 15px;
+        font-size: 20px;
+        padding: 0 7rem 0.5rem;
+    }
+    
+    #stats {
+        padding-bottom: 0.5rem;
     }
 }
 
+/* Desktop */
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1200px) {
     .cardContainer {
         width: 70%;
         display: flex;
