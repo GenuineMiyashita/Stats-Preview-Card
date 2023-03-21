@@ -15,7 +15,15 @@
   <body>
     <main class="container">
       <div class="cardContainer">
-        <img src="images/image-header-mobile.jpg" alt="" id="cardImage" />
+        <div id="pictureContainer">
+          <picture>
+            <source
+              media="(min-width: 1200px)"
+              srcset="./images/image-header-desktop.jpg"
+            />
+            <img src="images/image-header-mobile.jpg" alt="" id="cardImage" />
+          </picture>
+        </div>
         <div id="cardText">
           <div id="hero">
             <h1 id="heroText">
