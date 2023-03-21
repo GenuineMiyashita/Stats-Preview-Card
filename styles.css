@@ -24,7 +24,7 @@
 
  img {
     display: block;
-    max-width: 100%;
+    max-width: 100%;    
 }
 
 .container {
@@ -101,4 +101,72 @@
     letter-spacing: 0;
     color: var(--MainHeadingAndStats);
     padding: 0.313rem;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 768px) {
+    .cardContainer {
+        width: 85%;
+    }
+
+    #hero {
+        text-align: center;        
+    }
+
+    #heroText {
+        font-size: 35px;
+    }
+
+    #heroText {
+        font-size: 35px;
+    }
+
+    #heroSubText {
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (min-width: 900px) {
+    .cardContainer {
+        width: 70%;
+        display: flex;
+        flex-direction: row-reverse;
+        border-radius: 0.625rem 0 0 0.625rem;
+    }
+
+    #cardImage {
+        width: 50%;
+        border-radius: 0 0.625rem 0.625rem 0;
+    }
+
+    #hero {
+        width: 75%;
+        text-align: left;        
+        margin-right: 4rem;
+        padding-bottom: 2.5rem;
+    }
+
+    #heroText {
+        font-size: 35px;
+    }
+
+    #heroSubText {
+        width: 90%;
+        font-size: 15px;
+    }
+
+    #stats {
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        margin-right: 4rem;
+    }
+
+    #stats p {
+        font-size: 12px;
+        margin-right: 2.5rem;   
+    }
 }
