@@ -1,4 +1,6 @@
- @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+/* General Section */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
 
 :root {
     --MainBackground: hsl(233, 47%, 7%);
@@ -30,35 +32,73 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    height: 100dvh;
 }
 
 .cardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
     background-color: var(--CardBackground);
+    border-radius: 0 0 0.469rem 0.469rem;
+}
+
+/* Hero Text Section */
+
+#cardImage {
+    border-radius: 0.625rem 0.625rem 0 0;
+}
+
+#cardText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
 #heroText {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
+    font-size: 1.563rem;
     color: var(--MainHeadingAndStats);
+    padding: 1.5rem 1.5rem 1rem;
 }
 
-#heroText span{
+#heroText span {
     color: var(--Accent);
 }
 
 #heroSubText {
+    font-size: 0.938rem;
+    line-height: 1.70;
     color: var(--MainParagraph);
+    padding: 0 1.5rem 0.75rem;
+    
 }
 
-#stats {
+/* Stats Section */
 
+#stats {
+    font-family: 'Inter', sans-serif;
     color: var(--StatHeadings);
+    text-align: center;
+    padding-bottom: 0.625rem;
+}
+
+#stats p {
+    font-size: 0.531rem;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+    padding: 0.5rem;
 }
 
 #stats span {
     display: block;
-    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 0;
     color: var(--MainHeadingAndStats);
+    padding: 0.313rem;
 }
