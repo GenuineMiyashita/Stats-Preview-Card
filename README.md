@@ -26,7 +26,7 @@ Your users should be able to:
 ### Links
 
 - Solution URL: [Solution](https://www.frontendmentor.io/solutions/results-summary-component-6zpPHXUzZa)
-- Live Site URL: [Live](https://genuinemiyashita.github.io/NFT-Preview-Card/)
+- Live Site URL: [Live](https://genuinemiyashita.github.io/Stats-Preview-Card/)
 
 ## My process
 
