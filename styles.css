@@ -167,7 +167,6 @@
         border-radius: 0 0.625rem 0.625rem 0;
         width:  101%;
     }
-
     #hero {
         width: 100%;
         padding-bottom: 1rem;
@@ -202,5 +201,13 @@
 
     #stats span {
         font-size: 18px;
+    }
+}
+
+/* Ultrawide */
+
+@media screen and (min-width: 2000px) {
+    #hero {
+        padding-bottom: 4rem;
     }
 }
