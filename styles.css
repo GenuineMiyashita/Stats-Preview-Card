@@ -54,9 +54,10 @@
     background-color: hsl(277, 64%, 61%);
 }
 
-#cardImage {  width: 100%;
-    height: 100%;
+#cardImage {  
     position: relative;
+    width: 100%;
+    height: 100%;
     background-size: cover;
     mix-blend-mode: multiply;
     opacity: 0.75;
@@ -117,7 +118,7 @@
 
 /* Media Queries */
 
-/* iPad Air up to Desktop */
+/* Larger Mobile Devices*/
 
 @media screen and (min-width: 768px) and (max-width: 900px) {
     .cardContainer {
@@ -153,7 +154,7 @@
     }
 }
 
-/* Desktop */
+/* Desktops */
 
 @media screen and (min-width: 1200px) {
     .cardContainer {
@@ -202,7 +203,7 @@
     }
 }
 
-/* Ultrawide Desktop */
+/* Ultrawide Monitor  */
 
 @media screen and (min-width: 2000px) {
     .cardContainer {
